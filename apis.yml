@@ -1,8 +1,26 @@
 aid: yolorekt
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yolorekt.png
 name: YoloRekt
-description: 'YoloRekt is a company surfaced as a portfolio company of pantera-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'YOLOrekt is a social, hyper-gamified DeFi prediction-markets dApp where users
+  bid on the short-term future price of crypto assets such as ETH, BTC, and MATIC, or provide
+  in-game liquidity to earn game fees and YOLO rewards. Built on the Polygon network for high
+  transaction speed, negligible fees, and full EVM support, YOLOrekt is delivered as Ethereum
+  and Polygon smart contracts (including a first-of-its-kind synced dual-token issuance across
+  both chains) rather than a traditional REST/GraphQL API. Backed by Pantera Capital and surfaced
+  into the API Evangelist network as a crypto portfolio company; the yolorekt.finance domain no
+  longer resolves and the project appears dormant, with its surviving public surface being the
+  YOLOrekt GitHub organization, community bug-bounty programs, and the YOLOrekt Medium publication.'
 url: https://raw.githubusercontent.com/api-evangelist/yolorekt/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto
+- DeFi
+- Prediction Markets
+- Blockchain
+- Polygon
+- Ethereum
+- Web3
+- Smart Contracts
+- Gaming
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.yolorekt.finance/
+- type: GitHubOrganization
+  url: https://github.com/YOLOrekt
+- type: Blog
+  url: https://medium.com/yolorekt
+- type: VulnerabilityDisclosure
+  url: security/yolorekt-vulnerability-disclosure.yml
+- type: Security
+  url: https://github.com/YOLOrekt/community-bug-bounty
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
